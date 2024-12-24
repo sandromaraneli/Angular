@@ -1,0 +1,27 @@
+<div class="details-page">
+  <div class="left-side">
+    <h1>Details Page</h1>
+    <h2>Welcome to our Detail Page, Its showcases of premium Laptops, advanced smartphones, and high-performance gaming gear.</h2>
+  </div>
+  <div class="right-side">
+
+  </div>
+</div>
+
+<div class="products">
+  <section class="cardsArea">
+    <div class="card" style="width: 18rem;">
+      <img [src]="singleProduct?.images[0] || 'path/to/default/image.jpg'" class="card-img-top" alt="{{singleProduct?.title}}">
+      <div class="card-body">
+        <h5 class="card-title">Title: {{singleProduct?.title}}</h5>
+        <h5 class="card-title" style="margin-top: 5%;">Price: {{singleProduct?.price.current}} {{singleProduct?.price.currency}}</h5>
+        <p class="card-text" style="margin-top: 5%;">Description: {{singleProduct?.description}}</p>
+        <p class="card-text" style="margin-top: 5%;">Brand: {{singleProduct?.brand}}</p>
+        <p class="card-text">Warranty: {{singleProduct?.warranty}}</p>
+        <div class="button-area">
+          <a (click)="addToCart()" class="btn btn-primary" routerLink="/cart">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

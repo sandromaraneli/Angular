@@ -1,0 +1,171 @@
+<div class="product-section">
+    <div class="middle-div">
+        <div class="left-side">
+            <div class="showcase">
+                <p>Showcase for laptops, phones, and gaming gear.</p>
+            </div>
+            <div class="h1-one">
+                <h1>Explore Our Cutting-</h1>
+            </div>
+            <div class="h1-two">
+                <h1>Edge Tech Collection</h1>
+            </div>
+            <div class="p-bottom">
+                <p>Dive into a world of innovation with our extensive range of laptops, smartphones, and gaming gear.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="discover">
+    <div class="mother-discover">
+        <div class="content">
+            <div class="h1-discover">
+                <h1>Discover Our Product </h1>
+            </div>
+            <div class="p-discover">
+                <p>Browse through our diverse range of tech products.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="products">
+    <section class="cardsArea">
+      <div *ngFor="let product of productList; let i = index" class="cards" style="width: 18rem;">
+        <img [src]="product.images[0]" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Title : {{product.title}}</h5>
+          <h5 class="card-title" style="margin-top: 5%;">Price : {{product.price.current}} {{product.price.currency}}</h5>
+          <p class="card-text" style="margin-top: 5%;">Brand : {{product.brand}}</p>
+          <p class="card-text">Warranty : {{product.warranty}}</p>
+          <div class="button-area">
+            <a [queryParams]="{ id: product._id }" routerLink="details" class="btn btn-primary">Learn More</a>
+            <a (click)="addToCart(product)" class="btn btn-primary" style="margin-top: 5%; background-color: orange;">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+<div class="Mother-Premium-Tech">
+    <div class="Premium-Tech">
+        <div class="content-cost">
+            <h1>Competitive Pricing for Premium Tech</h1>
+            <p>Choose the best value for your tech needs.Quility and affordability combined</p>
+            <div class="middle">
+                <div class="left-content">
+                    <div class="upper-content">
+                        <h1>Tech Enthuasiast Plan</h1>
+                        <p>Acces exclusice deals and early releases on all tech products</p>
+                    </div>
+                    <div class="bottom-content">
+                        <div class="left-side-content">
+                            <h3>Membership Benefits</h3>
+                            <p class="Member">✓ Exclusive member discounts</p>
+                            <p class="new">✓ Early acces to new product</p>
+                        </div>
+                        <div class="right-side-content">
+                            <p class="customer">✓ Priority customer support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-content">
+                    <div class="subscription">
+                        <div class="header-subscription">
+                            <h1>Subscribe annually, cancel anytime</h1>
+                        </div>
+                        <div class="cost">
+                            <h1 class="COST">$299</h1>
+                            <h1 class="usd">USD</h1>
+                        </div>
+                        <div class="button">
+                            <button>Join the Club</button>
+                        </div>
+                        <div class="terms">
+                            <h1>Terms and conditions apply</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mother-custumer">
+    <div class="child-customer">
+        <h1>TechStore by the Numbers</h1>
+        <p>Join thousand of satisfied customers who trust us for their tech needs.</p>
+        <div class="numbers">
+            <div class="number1">
+                <h1>50,000+</h1>
+                <p>Products Sold</p>
+            </div>
+            <div class="number2">
+                <h1>30,000+</h1>
+                <p>Happy Customer</p>
+            </div>
+            <div class="number3">
+                <h1>5,000+</h1>
+                <p>Product Rewievs</p>
+            </div>
+            <div class="number4">
+                <h1>10+</h1>
+                <p>Years In Bussines</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="Rewievs">
+    <div class="child-Rewievs">
+        <div class="Rewievs-cards">
+            <div class="Rew-card1">
+                <h1>Customer Reviews</h1>
+                <p>3 Reviews</p>
+            </div>
+            <div class="Rew-card2">
+                <div class="title">
+                    <h2>★★★★★ for <b>Product Quility</b> December 1 ,2024</h2>
+                </div>
+                <div class="paragraph">
+                    <p>Amazing quility and comfort.Highly recommend the Phones!</p>
+                </div>
+                <div class="profile">
+                    <div class="img-circle">
+                        <img src="https://cdn.a1.art/assets/images/app_1811317900177637378/1811317900181831681/0c5b5604-12ea-43cc-b8a5-9e0d53b31c31.jpeg" alt="" style="width: 100%;height: 100%;object-fit: contain; border-radius: 50px;">
+                    </div>
+                    <h2>Emma Johnson</h2>
+                </div>
+            </div>
+            <div class="Rew-card3">
+                <div class="title1">
+                    <h2>★★★★★ for <b>Customer Service</b> November 27 ,2024</h2>
+                </div>
+                <div class="paragraph1">
+                    <p>Exceptional service and quick response time.Very satisfied.</p>
+                </div>
+                <div class="profile1">
+                    <div class="img-circle1">
+                        <img src="https://cdn.a1.art/assets/images/app_1811317900177637378/1811317900181831681/78d8eb5a-cd85-48b1-8c8b-41554f6a5fc8.jpeg" alt="" style="width: 100%;height: 100%;object-fit: contain; border-radius: 50px;">
+                    </div>
+                    <h2>Samantha Lee</h2>
+                </div>
+            </div>
+            <div class="Rew-card4">
+                <div class="title2">
+                    <h2>★★★★★ for <b>Value for Money</b> November 20 ,2024</h2>
+                </div>
+                <div class="paragraph2">
+                    <p>Great value for the price.The gaming laptop is top-notch.</p>
+                </div>
+                <div class="profile2">
+                    <div class="img-circle2">
+                        <img src="https://cdn.a1.art/assets/images/app_1811317900177637378/1811317900181831681/3a18c68d-9a77-4122-bfee-c7199199e536.jpeg" alt="" style="width: 100%;height: 100%;object-fit: contain; border-radius: 50px;">
+                    </div>
+                    <h2>Michael Brown</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

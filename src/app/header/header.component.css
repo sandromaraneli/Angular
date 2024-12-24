@@ -1,0 +1,26 @@
+.container-fluid img{
+    object-fit: cover;
+    width: 2% !important;
+    display: flex !important;
+}
+#navbarNav{
+    display: flex;
+    justify-content: center !important;
+}
+.container-fluid ul{
+    gap: 15px !important;
+}
+nav{
+    width: 90% !important;
+    margin-left: 5% !important;
+    border-radius: 10px  !important;
+    margin-top: 0.5% !important;
+}
+@media only screen and (max-width: 988px) {
+
+    .container-fluid img{
+        object-fit: cover;
+        width: 7% !important;
+        display: flex !important;
+    }
+}

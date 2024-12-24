@@ -1,0 +1,582 @@
+
+.product-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1%;
+}
+.middle-div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.left-side{
+    width: 50%;
+    height: 100%;
+}
+.showcase{
+    width: 60%;
+    height: 10%;
+    margin-top: 5%;
+}
+.showcase p {
+    color: blue;
+}
+.h1-one h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.h1-two h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.p-bottom{
+    width: 70%;
+    margin-top: 1%;
+}
+.p-bottom p {
+    font-size: 16px;
+}
+.discover{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+}
+.mother-discover{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+.content{
+    height: 100%;
+    width: 81%;
+}
+.h1-discover{
+    margin-top: 1%;
+}
+.h1-discover h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardsArea {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cards {
+    border: 4px solid rgb(106, 106, 228);
+    width: 30%; 
+    /* height: 25%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden; 
+    gap: 50px;
+}
+
+.cards a {
+    border: 2px solid rgb(106, 106, 228);
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgb(106, 106, 228);
+    color: white;
+}
+.button-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards a:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s; 
+}
+
+.cards:hover {
+    transform: scale(1.01);
+    transition: transform 0.3s; 
+}
+
+.card-img {
+    width: 100%;
+    height: 60%;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Mother-Premium-Tech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    height: 600px;
+}
+.Premium-Tech{
+    width: 65%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-cost{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.middle{
+    border: 1px solid rgb(106, 106, 228);
+    width: 100%;
+    margin-top: 4%;
+    display: flex;
+    height: 100%;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+.left-content{
+    width: 65%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.upper-content{
+    width: 100%;
+    height: 35%;
+    margin-top: 4%;
+}
+.upper-content h1{
+    color: rgb(106, 106, 228);
+    font-size: 30px;
+    margin-left: 3%;
+}
+.upper-content p {
+    margin-left: 3%;
+}
+.bottom-content{
+    border-radius: 2px solid purple;
+    height: 65%;
+    width: 100%;
+    display: flex;
+}
+.bottom-content h3 {
+    color: rgb(106, 106, 228);
+    font-size: 20px;
+    margin-left: 7%;
+}
+.left-side-content{
+    width: 50%;
+}
+.right-side-content{
+    width: 50%;
+}
+.left-side-content .Member{
+    margin-left: 7%;
+    margin-top: 5%;
+    color: rgb(106, 106, 228);
+}
+.left-side-content .new{
+    margin-left: 7%;
+    margin-top: 10%;
+    color: rgb(106, 106, 228);
+}
+.right-side-content .customer{
+    margin-left: 5%;
+    margin-top: 11%;
+    color: rgb(106, 106, 228);
+}
+.right-content{
+    width: 35%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscription{
+    width: 100%;
+    height: 100%;
+    border: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: cyan;
+    border-radius: 30px;
+}
+.header-subscription{
+    width: 100%;
+    height: 20%;
+    margin-top: 8%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.header-subscription h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.cost{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cost .COST{
+    font-weight: 650;
+}
+.cost .usd{
+    font-size: 15px;
+    margin-top: 4%;
+}
+.button{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    height: 85%;
+    width: 60%;
+    background-color: rgb(106, 106, 228);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.button button:hover{
+    opacity: 0.8;
+}
+.terms{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.terms h1{
+    font-size: 13px;
+}
+.mother-custumer{
+    display: flex;
+    margin-top: 4%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.child-customer{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.numbers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.number1{
+    width: 24%;
+    height: 80%;
+    gap: 2px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.number2{
+    width: 24%;
+    height: 80%;
+    margin-left: 1%;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.number3{
+    width: 24%;
+    height: 80%;
+    margin-left: 1%;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.number4{
+    width: 24%;
+    height: 80%;
+    margin-left: 1%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Rewievs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    width: 100%;
+    height: 700px;
+}
+.child-Rewievs{
+    width: 65%;
+    height: 100%;
+}
+.Rew-card1{
+    width: 100%;
+    height: 25%;
+
+}
+.Rew-card2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(106, 106, 228);
+    border-radius: 20px;
+}
+
+.title h2{
+    font-size: 25px;
+    margin-left: 1%;
+}
+.paragraph p {
+    font-size: 18px;
+    margin-left: 1%;
+}
+.profile{
+    display: flex;
+    margin-left: 1%;
+}
+.profile h2{
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 25px;
+}
+.img-circle{
+    width: 5%;
+    height: 10%;
+}
+.Rew-card3{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    border: 1px solid rgb(106, 106, 228);
+    border-radius: 20px;
+}
+
+.title1 h2{
+    font-size: 25px;
+    margin-left: 1%;
+}
+.paragraph1 p {
+    font-size: 18px;
+    margin-left: 1%;
+}
+.profile1{
+    display: flex;
+    margin-left: 1%;
+}
+.profile1 h2{
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 25px;
+}
+.img-circle1{
+    width: 5%;
+    height: 10%;
+}
+.Rew-card4{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    border: 1px solid rgb(106, 106, 228);
+    border-radius: 20px;
+}
+.title2 h2{
+    font-size: 25px;
+    margin-left: 1%;
+}
+.paragraph2 p {
+    font-size: 18px;
+    margin-left: 1%;
+}
+.profile2{
+    display: flex;
+    margin-left: 1%;
+}
+.profile2 h2{
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 25px;
+}
+.img-circle2{
+    width: 5%;
+    height: 10%;
+}
+@media (max-width: 710px) {
+    .product-section {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .left-side {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .showcase {
+        width: 100%; 
+    }
+
+    .p-bottom {
+        width: 100%; 
+    }
+
+    .h1-one h1,
+    .h1-two h1 {
+        font-size: 30px; 
+    }
+
+    .p-bottom p {
+        font-size: 14px; 
+    }
+    .discover {
+        flex-direction: row; 
+        height: auto; 
+    }
+
+    .content {
+        width: 100%; 
+    }
+
+    .h1-discover h1 {
+        font-size: 30px; 
+    }
+    .middle {
+        flex-direction: column; 
+    }
+
+    .left-content, 
+    .right-content {
+        width: 100%; 
+    }
+
+    .left-side-content, 
+    .right-side-content {
+        width: 100%; 
+    }
+
+    .bottom-content {
+        flex-direction: column; 
+    }
+    .Mother-Premium-Tech{
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .number1, .number2, .number3, .number4 {
+        width: 45%; 
+    }
+    .cardsArea{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .cards {
+        width: 45%; 
+    }
+    .number2, .number3 {
+        margin-left: 0; 
+    }
+    .number1 {
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 0;
+    }
+    .number2{
+        border-top-right-radius: 25px;
+    }
+    .number3{
+        border-bottom-left-radius: 25px;
+    }
+    .number4{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 25px;
+        margin-left: 0;
+    }
+    .child-Rewievs {
+        width: 90%; 
+    }
+
+    .Rew-card1,
+    .Rew-card2,
+    .Rew-card3,
+    .Rew-card4 {
+        height: auto; 
+    }
+
+    .title h2,
+    .title1 h2,
+    .title2 h2 {
+        font-size: 22px; 
+    }
+
+    .paragraph p,
+    .paragraph1 p,
+    .paragraph2 p {
+        font-size: 16px; 
+    }
+
+    .img-circle,
+    .img-circle1,
+    .img-circle2 {
+        width: 10%; 
+    }
+
+}

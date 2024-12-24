@@ -1,0 +1,597 @@
+.welcoming-page {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
+
+.left-side {
+
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+
+.right-side {
+    width: 45%;
+    flex-wrap: wrap; 
+    display: flex;
+    margin-left: 5%;
+}
+
+.right-side img {
+    border-radius: 120px 20px 120px 20px;
+    /* width: 100%;  */
+}
+
+.upper-header {
+    width: 80%;
+    margin-top: 10%;
+}
+
+.upper-header h1 {
+    font-size: 68px;
+}
+
+.upper-header p {
+    margin-top: 2%;
+}
+
+.down-info {
+    height: auto; 
+}
+.upper-btns .btn1 {
+    height: 50px;
+    width: 20%;
+    border-radius: 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+
+.down-customer {
+    display: flex;
+    margin-top: 10%;
+    flex-wrap: wrap; 
+    gap: 5px;
+}
+
+.block, .block2, .block3 {
+    width: 32%;
+    height: 100px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.block p, .block2 p, .block3 p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bottom-headers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+.bottom-headers h1{
+    font-size: 45px;
+}
+.TechInfo_Cards{
+    display: flex;
+    width: 90%;
+    margin-left: 7%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.headphones{
+    width: 33%;
+    margin-left: 0.5%;
+}
+.headphones h1{
+    font-size: 30px;
+}
+.phones{
+    width: 33%;
+}
+.gaming-gear{
+    width: 33%;
+}
+.headphones-bottom-header{
+    width: 86%;
+}
+.headphones-bottom-header p {
+    font-size: 22px;
+}
+.headphones-img{
+    margin-top: 3%;
+    height: 60%;
+    border-radius: 20px;
+    width: 86%;
+}
+.headphones-img-paragraph{
+    width: 86%;
+}
+.headphones-img-paragraph p {
+    font-size: 21px;
+    font-weight: 400;
+}
+.phones-bottom-header{
+    width: 86%;
+}
+.phones-bottom-header p {
+    font-size: 22px;
+}
+.phones-img{
+    margin-top: 1%;
+    height: 60%;
+    border-radius: 20px;
+    width: 86%;
+}
+.phones-img-paragraph{
+    width: 86%;
+}
+.phones-img-paragraph p {
+    font-size: 21px;
+    font-weight: 400;
+}
+.gaming-bottom-header{
+    width: 86%;
+}
+.gaming-bottom-header p {
+    font-size: 21px;
+}
+.gaming-img{
+    height: 60%;
+    border-radius: 20px;
+    width: 86%;
+    margin-top: 7%;
+}
+.gaming-img-paragraph{
+    width: 86%;
+}
+.gaming-img-paragraph p {
+    font-size: 22px;
+    font-weight: 400;
+}
+.categoryDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 5%;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+.headphones-Category{
+    width: 30%;
+    height: 100%;
+}
+.phones-Category{
+    width: 30%;
+    height: 100%;
+}
+.gaming-Category{
+    width: 30%;
+    height: 100%;
+}
+.headphones-Category:hover{
+    transform: scale(1.03);
+    z-index: 2;
+    transition: 1s;
+}
+.phones-Category:hover{
+    transform: scale(1.03);
+    z-index: 2;
+    transition: 1s;
+}
+.gaming-Category:hover{
+    transform: scale(1.03);
+    z-index: 2;
+    transition: 1s;
+}
+.category-title{
+    display: flex;
+    justify-content: center;
+}
+.reviews{
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left-review{
+    width: 48%;
+    height: 100%;
+}
+.right-review{
+    width: 48%;
+    height: 100%;
+}
+.upper-pragraph{
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 73%;
+}
+.upper-pragraph p {
+    font-size: 20px;
+}
+.bottom-name{
+    display: flex;
+    align-items: center;
+}
+.circle{
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+}
+.names{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.names h2 {
+    font-size: 20px;
+}
+.names p {
+    font-size: 20px;
+}
+.other-secttion{
+    width: 100%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(106, 106, 228);
+}
+.mother-div{
+    width: 60%;
+    height: 90%;
+    border-radius: 25px;
+    display: flex;
+    background-color: rgb(96, 126, 248);
+    opacity: 0.9;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.right-div{
+    width: 50%;
+    height: 100%;
+}
+.left-div{
+    width: 45%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.H1{
+    color: white;
+    margin-top: 20%;
+    margin-left: 3%;
+}
+.P{
+    color: white;
+    margin-left: 3%;
+}
+.img1{
+    width: 80%;
+    height: 70%;
+    border-radius: 25px;
+}
+.selections{
+    margin-top: 8%;
+    display: flex;
+    margin-left: 3%;
+}
+.left-selection{
+    width: 50%;
+}
+.left-selection h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 350;
+}
+.right-selection{
+    width: 50%;
+}
+.right-selection h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 350;
+}
+.button{
+    margin-top: 4%;
+    height: 10%;
+    align-items: center;
+    margin-left: 2%;
+}
+.button button{
+    border: none;
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+}
+.button button:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.contactUS-HomePage{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.upper-sendMESS{
+    width: 55%;
+    margin-left: 23%;
+    height: 60%;
+    margin-top: 5%;
+    display: flex;
+}
+.upper-sendMESS h1{
+    color: rgb(96, 126, 248);
+}
+.form-div{
+    width: 70%;
+    height: 87%;
+    margin-right: 5%;
+}
+.upper-input input{
+    width: 40%;
+    height: 40px;
+}
+.bottom-input{
+    margin-top: 3%;
+}
+.bottom-input input{
+    width: 40%;
+    height: 40px;
+}
+.message-input{
+    margin-top: 3%;
+}
+.message-input input{
+    width: 100%;
+    height: 120px;
+}
+.buttom-contact{
+    margin-top: 4%;
+}
+.buttom-contact button{
+    border-radius: 25px;
+    background-color: rgb(106, 106, 228);
+    color: white;
+    border: none;
+    height: 40px;
+}
+.buttom-contact button:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.right-side-info{
+    width: 40%;
+    background-color: rgb(194, 151, 151);
+}
+.right-side-info h1{
+    color: white;
+}
+.right-side-info p {
+    color: white;
+} 
+.down-FAQ{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.mother-FAQ{
+    width: 55%;
+    height: 100%;
+    margin-left: 1%;
+}
+.mostAsked-top{
+    width: 100%;
+    height: 43%;
+    display: flex;
+}
+.mostAsked-bottom{
+    width: 100%;
+    height: 43%;
+    display: flex;
+}
+.left-side-FAQ{
+    width: 50%;
+    height: 100%;
+}
+.right-side-FAQ{
+    width: 50%;
+    height: 100%;
+    
+}
+
+@media only screen and (max-width: 710px) {
+
+    .welcoming-page {
+        flex-direction: column; 
+        width: 100%;
+        margin-left: 0;
+    }
+    .left-side, .right-side {
+        width: 100%; 
+        margin-left: 0; 
+    }
+    .left-side h1 {
+        margin-left: 4%;
+    }
+    .left-side p {
+        margin-left: 4%;
+    }
+    .right-side {
+        margin-left: 0;
+    }
+
+    .upper-header h1 {
+        font-size: 36px; 
+    }
+
+    .upper-btns .btn1 {
+        width: 40%; 
+        margin: 10px 0; 
+    }
+    .upper-btns .btn1{
+        margin-left: 4%;
+    }
+
+    .down-info {
+        flex-direction: column; 
+    }
+
+    .block, .block2, .block3 {
+        width: 100%;
+        height: auto;
+        margin: 10px 0; 
+    }
+    .right-side img {
+        border-radius: 150px 30px 150px 30px;
+        margin: 7% 0% 7% 0% ;
+    }
+    .right-side{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .headphones,
+    .phones,
+    .gaming-gear {
+        width: 100%; 
+        margin-left: 0; 
+        margin-bottom: 10px; 
+    }
+    .headphones-top-header h1{
+        margin-left: 8%;
+    }
+    .headphones-bottom-header p {
+        margin-left: 8%;
+    }
+    .headphones-img-paragraph p {
+        margin-left: 8%;
+    }
+    .phones-top-header h1 {
+        margin-left: 6%;
+    }
+    .phones-bottom-header p {
+        margin-left: 8%;
+    }
+    .phones-img-paragraph p {
+        margin-left: 7%;
+    }
+    .gaming-top-header h1{
+        margin-left: 8%;
+    }
+    .gaming-bottom-header p {
+        margin-left: 8%;
+    }
+    .gaming-img-paragraph p {
+        margin-left: 8%;
+    }
+    .gaming-img{
+        margin-left: 2%;
+    }
+    .headphones-img{
+        margin-left: 2%;
+    }
+    .phones-img{
+        margin-left: 2%;
+    }
+    .headphones-Category,
+    .phones-Category,
+    .gaming-Category {
+        width: 100%; 
+        height: auto; 
+        margin-bottom: 20px; 
+    }
+    .reviews {
+        flex-direction: column; 
+        height: auto; 
+    }
+    
+    .left-review, .right-review {
+        width: 90%; 
+        margin: 10px 0; 
+    }
+    .mother-div {
+        flex-direction: column;
+        width: 90%;
+        height: auto; 
+    }
+
+    .left-div, .right-div {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .img1 {
+        width: 90%; 
+        height: auto; 
+    }
+    .selections {
+        flex-direction: column; 
+        margin-left: 0; 
+    }
+
+    .left-selection, .right-selection {
+        width: 100%; 
+    }
+    .upper-sendMESS {
+        width: 100%;
+        margin-left: 0;
+        height: auto; 
+    }
+    
+    .right-side-info {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .upper-input input, .bottom-input input {
+        width: 90%; 
+    }
+    .upper-input .input1{
+        margin-left: 5%;
+    }
+    .bottom-input .input2{
+        margin-left: 5%;
+    }
+    .message-input input {
+        width: 90%; 
+    }
+    .message-input{
+        margin-left: 5%;
+    }
+    .buttom-contact {
+        text-align: center; 
+    }
+    .mostAsked-top, .mostAsked-bottom {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .left-side-FAQ, .right-side-FAQ {
+        width: 100%; 
+        height: auto; 
+    }
+}

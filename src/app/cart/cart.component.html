@@ -1,0 +1,27 @@
+
+
+<div class="details-page">
+  <div class="left-side">
+    <h1>Cart Page</h1>
+    <h2>Welcome to our Cart Page, where you can review your selections of premium laptops, cutting-edge smartphones, and high-performance gaming gear. Get ready to finalize your purchase and enjoy the ultimate tech experience!</h2>
+  </div>
+  <div class="right-side">
+
+  </div>
+</div>
+<div class="products">
+  <section class="cardsArea">
+    <div *ngFor="let product of cartProducts; let i = index" class="card" style="width: 18rem;">
+      <img [src]="product.images[0] || 'path/to/default/image.jpg'" class="card-img-top" alt="{{product.title}}">
+      <div class="card-body">
+        <h5 class="card-title">Title : {{product.title}}</h5>
+        <h5 class="card-title">Price {{product.price.current}} {{product.price.currency}}</h5>
+        <p class="card-text" style="margin-top: 5%;">Description : {{product.description}}</p>
+        <p class="card-text">Brand : {{product.brand}}</p>
+        <div class="button-area">
+          <a (click)="removeFromCart(i)" class="btn btn-danger">Remove From Cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,44 @@
+.footer{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.left-side-footer{
+    width: 50%;
+}
+
+.dateInput{
+    margin-left: 5%;
+}
+
+.Sign-up input{
+    width: 45%;
+    height: 50px;
+}
+
+.Sing-up-buttom button{
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 10px;
+}
+@media (max-width: 710px) {
+    .footer {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .left-side-footer,
+    .right-side-footer {
+        width: 100%; 
+    }
+    
+    .Sign-up input {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+}
